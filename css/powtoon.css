@@ -1,0 +1,127 @@
+body {
+  max-width: 800px;
+  margin: auto;
+}
+.logo {
+  background-repeat: no-repeat;
+  background-image: url("../img/logo.png");
+  background-size: 85px 40px;
+  height: 40px;
+  width: 85px;
+  margin-left: 100px;
+  display: block;
+}
+header {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-image: url("../img/background.png");
+  background-size: 800px 450px;
+}
+.header-info {
+  padding-left: 90px;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+
+.header-info h1 {
+  font-weight: normal;
+  font-size: 26px;
+}
+.header-info h2 {
+  font-weight: normal;
+  color: #44a09b;
+  font-size: 16px;
+}
+.button-container {
+  background-color: white;
+  border-radius: 0px 45px 45px 0px;
+  width: 290px;
+  height: 75px;
+  padding-top: 20px;
+  padding-left: 90px;
+}
+.triangle {
+  color: white;
+  margin-top: 25px;
+}
+.triangle span {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8px;
+}
+.triangle a {
+  background-repeat: no-repeat;
+  background-image: url(../img/triangle.png);
+  background-size: 25px 17px;
+  height: 17px;
+  width: 25px;
+  display: block;
+  margin: auto;
+}
+.button-container span {
+  display: block;
+  color: #ff8141;
+}
+video {
+  float: left;
+}
+.video {
+  float: left;
+  width: 452px;
+}
+.info {
+  float: left;
+  padding: 20px;
+  width: 308px;
+  height: 342px;
+}
+.info h2 {
+  text-transform: uppercase;
+  color: #3a4a62;
+  padding-left: 25px;
+}
+.info ul {
+  padding-left: 25px;
+}
+.info li {
+  color: #575656;
+  font-size: 12px;
+  list-style: none;
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-position: left 4px;
+  background-size: 5px 9px;
+  padding-left: 15px;
+}
+.info li.heart {
+  background-image: url(../img/heart-arrow.png);
+  background-repeat: no-repeat;
+  background-position: left 3px;
+  background-size: 9px 9px;
+}
+.info button {
+  margin-left: 25px;
+}
+footer {
+  clear: both;
+  height: 50px;
+  width: 800px;
+  background-color: #396180;
+}
+footer p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+button {
+  border-radius: 25px;
+  background-color: #ff8141;
+  color: white;
+  width: 200px;
+  text-transform: uppercase;
+  height: 30px;
+  font-size: 14px;
+}
